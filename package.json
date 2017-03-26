@@ -1,0 +1,18 @@
+{
+  "name": "raspberrypi",
+  "version": "1.0.0",
+  "description": "NodeJS Raspberry PI Server Example",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "onoff": "^1.1.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Matias Salas",
+  "license": "ISC"
+}
